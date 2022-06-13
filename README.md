@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Hi guys 👋
+My name is Kittipat but you can call me Pond. I'm a Junior student's computer engineering  Khon Kaen University. I'm like to coding and learning new technology and new ideas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Blog, writing
+When I have new knowledge I like to write a blog as a reminder of when I forget. I like to write at [Meduim](https://medium.com/@kittipat_dd)
 
-## Available Scripts
+## Social Media
+<p align="center"> 
+  <a href="https://www.facebook.com/IPondNaKab/" rel="Go to my Facebook">
+    <img src="https://www.flaticon.com/svg/vstatic/svg/733/733547.svg?token=exp=1614803234~hmac=fc5fb5edb49fdd0ea4770cb8d91eb48a" height="40" margin="20">
+  </a>
+  <a href="https://www.linkedin.com/in/kittipat-dd/" rel="Go to my linkedin">
+    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111499.svg?token=exp=1614803427~hmac=050a513e567951d040f16271d136dcb3" height="50">
+  </a>
+  <a href="https://www.instagram.com/ipondnakab/" rel="Go to my instagram">
+    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111463.svg?token=exp=1614803348~hmac=2f6d2d2caa44f4a9c8dfb800d04d157f" height="40">
+  </a>
+  <a href="https://medium.com/@kittipat_dd" rel="Go to my Medium">
+    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111543.svg?token=exp=1614803468~hmac=189823dffc73ebdfa4830845b5143237" height="40">
+  </a>
+    
+</p>
+<!--
+**ipondnakab/ipondnakab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-In the project directory, you can run:
+Here are some ideas to get you started:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 🔭 I’m currently working on ... 
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
