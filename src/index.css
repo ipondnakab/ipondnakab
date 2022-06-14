@@ -1,12 +1,42 @@
+@import '~antd/dist/antd.css';
 body {
   margin: 0;
   font-family: "Sarabun", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  background-color: transparent;
+}
+
+:root {
+  --black: linear-gradient(89.7deg, #0c161f -10.7%, #1f374b 88.8%);
+  --white: linear-gradient(89.7deg, #b4cae0 -10.7%, #e0e4f3 88.8%);
+  --background: var(--white);
+  --foreground: var(--black);
+  --transition: 750ms ease;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  background: var(--white);
+  color: var(--foreground);
+  transition: color var(--transition);
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: var(--black);
+  transform: translateX(-100%);
+  transition: transform var(--transition);
+  z-index: 0;
+}
+
+.dark-mode::before {
+  transform: translateX(0);
 }
