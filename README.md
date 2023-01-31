@@ -3,7 +3,7 @@ Hello, My name is Kittipat Daengdee. I'm able to do website development. I have 
 
 ## Blog, writing
 When I have new knowledge I like to write a blog as a reminder of when I forget. I like to write at [Meduim](https://medium.com/@kittipat_dd)
-
+<!--
 ## Social Media
 <p align="center"> 
   <a href="https://www.facebook.com/IPondNaKab/" rel="Go to my Facebook">
@@ -26,7 +26,7 @@ When I have new knowledge I like to write a blog as a reminder of when I forget.
   </a>
 
 </p>
-<!--
+
 **ipondnakab/ipondnakab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
