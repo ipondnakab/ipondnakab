@@ -6,6 +6,7 @@ import Providers from "./providers";
 
 import router from "./router";
 
+import "./firebase";
 import "./i18n";
 
 function App() {

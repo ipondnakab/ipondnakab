@@ -7,10 +7,10 @@ export const Label = styled.label`
 
 export const ContainerSwitch = styled.div`
   height: 22px;
-  width: 40px;
+  width: 38px;
   background: var(--foreground);
   border-radius: 40px;
-  padding: 4px;
+  padding: 3px 4px;
   position: relative;
   transition: background var(--transition);
   cursor: pointer;
@@ -18,8 +18,8 @@ export const ContainerSwitch = styled.div`
   &::before {
     content: "";
     display: block;
-    height: 14px;
-    width: 14px;
+    height: 15px;
+    width: 15px;
     border-radius: 30px;
     background: var(--background);
     position: absolute;
@@ -29,7 +29,7 @@ export const ContainerSwitch = styled.div`
   }
 
   &.enabled::before {
-    transform: translateX(18px);
+    transform: translateX(16px);
   }
 `;
 

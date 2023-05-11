@@ -9,6 +9,7 @@ export const LayoutProvider = LayoutContext.Provider;
 export const useLayoutFeature = () => {
   const [isShowLayout, setIsShowLayout] = React.useState(true);
   const [isShowSidebar, setIsShowSidebar] = React.useState(true);
+  const [isLoading, setIsLoading] = React.useState(false);
   const toggleShowLayout = React.useCallback(
     () => setIsShowLayout((isShowLayout) => !isShowLayout),
     []
@@ -18,6 +19,9 @@ export const useLayoutFeature = () => {
     () => setIsShowSidebar((isShowSidebar) => !isShowSidebar),
     []
   );
+
+  const appLoading = React.useCallback(() => setIsLoading(true), []);
+  const appLoaded = React.useCallback(() => setIsLoading(false), []);
   return {
     isShowLayout,
     setIsShowLayout,
@@ -25,6 +29,9 @@ export const useLayoutFeature = () => {
     isShowSidebar,
     setIsShowSidebar,
     toggleShowSidebar,
+    appLoading,
+    appLoaded,
+    isLoading,
   };
 };
 

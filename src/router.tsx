@@ -1,5 +1,7 @@
-import AboutPage from "./pages/about";
+// import AboutPage from "./pages/about";
+import ChatBoardPage from "./pages/chat-board";
 import HomePage from "./pages/home";
+// import ContactMePage from "./pages/contact-me";
 
 export type RouteType = {
   title: string;
@@ -12,7 +14,19 @@ export type RouteType = {
 
 const router: RouteType[] = [
   { name: "home", path: "/", component: <HomePage />, title: "Home" },
-  { name: "about", path: "/about", component: <AboutPage />, title: "About" },
+  // { name: "about", path: "/about", component: <AboutPage />, title: "About" },
+  {
+    name: "chatBoard",
+    path: "/demo",
+    component: <ChatBoardPage />,
+    title: "Demo",
+  },
+  // {
+  //   name: "contactMe",
+  //   path: "/contact-me",
+  //   component: <ContactMePage />,
+  //   title: "Contact Me",
+  // },
 ];
 
 export default router;

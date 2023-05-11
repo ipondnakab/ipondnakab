@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 body {
   margin: 0;
   font-family: "Sarabun", sans-serif;
@@ -39,4 +39,33 @@ html::before {
 
 .dark-mode::before {
   transform: translateX(0);
+}
+
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+.ant-image-preview-body {
+  backdrop-filter: blur(8px);
+}
+
+.ant-notification-notice {
+  backdrop-filter: blur(8px);
+  background-color: #fff6;
+}
+
+.firebaseui-card-content {
+  padding: 0 !important;
 }

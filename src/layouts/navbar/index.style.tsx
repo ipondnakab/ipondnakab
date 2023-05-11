@@ -1,11 +1,18 @@
+import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
   position: sticky;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
   display: flex;
   backdrop-filter: blur(5px);
-  transition: all 0.3s ease;
+  transition: ${(props) => props.theme.transition};
   top: 0;
   z-index: 1000;
   right: 0px;
@@ -14,6 +21,8 @@ export const NavbarContainer = styled.nav`
   justify-content: space-between;
   padding: 8px 16px;
   align-items: center;
+  box-shadow: ${(props) => props.theme.boxShadow};
+  gap: 24px;
 `;
 
 export const NavbarLogo = styled.span`
@@ -38,6 +47,10 @@ export const NavbarLink = styled(Link)`
   position: relative;
   padding: 0.2em 0;
   line-height: 16px;
+  width: max-content;
+  &:hover {
+    color: ${(props) => props.theme.palette.text.primary};
+  }
 
   &.active {
     color: ${(props) => props.theme.palette.text.primary};
@@ -87,10 +100,10 @@ export const SocialLink = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
+  transition: ${(props) => props.theme.transition};
   -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
   -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
-  transition: transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.2s, background 0.2s;
 
   &::after {
     top: 0;
@@ -106,9 +119,9 @@ export const SocialLink = styled.a`
   }
 
   &:hover {
-    transition: all 0.3s ease;
+    transition: ${(props) => props.theme.transition};
     color: ${(props) => props.theme.palette.text.inverse};
-    background-color: ${(props) => props.theme.palette.text.active + "6"};
+    background-color: ${(props) => props.theme.palette.text.active + "66"};
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -122,4 +135,20 @@ export const LineSpan = styled.span`
   background-color: ${(props) => props.theme.palette.text.primary};
   border-radius: 999px;
   overflow: hidden;
+`;
+
+export const CustomMenu = styled(Menu)`
+  background-color: ${(props) =>
+    props.theme.palette.text.primary + "88"} !important;
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+
+  & .ant-dropdown-menu-item {
+    margin: 2px 6px;
+    border-radius: 4px;
+  }
+
+  & .ant-dropdown-menu-item:hover {
+    background-color: ${(props) => props.theme.palette.text.inverse + "66"};
+  }
 `;

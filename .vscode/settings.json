@@ -2,5 +2,8 @@
     "react-i18n.i18nPaths": "src/assets/locales",
     "i18n-ally.localesPaths": [
         "src/assets/locales"
+    ],
+    "cSpell.words": [
+        "antd"
     ]
 }

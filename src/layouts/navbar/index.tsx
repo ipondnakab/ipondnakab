@@ -8,6 +8,7 @@ import {
   NavbarLink,
   SocialLink,
   LineSpan,
+  CustomMenu,
 } from "./index.style";
 import useTheme from "../../providers/themes";
 import Toggle from "../../components/toggleSwitch";
@@ -19,7 +20,8 @@ import {
 } from "react-icons/ti";
 import { VscGithub } from "react-icons/vsc";
 import { TbLanguage } from "react-icons/tb";
-import { Dropdown, Menu } from "antd";
+import { Dropdown } from "antd";
+import { MdBrokenImage, MdHideImage } from "react-icons/md";
 
 type SocialLinkProps = {
   icon: React.ReactElement;
@@ -29,28 +31,28 @@ type SocialLinkProps = {
 const socialLinks: SocialLinkProps[] = [
   {
     icon: <TiSocialFacebookCircular size={28} />,
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/ipondnakab",
   },
   {
     icon: <TiSocialLinkedinCircular size={28} />,
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/kittipat-dd/",
   },
   {
     icon: <VscGithub size={22} />,
-    href: "https://www.github.com/",
+    href: "https://github.com/ipondnakab",
   },
   {
     icon: <AiFillMediumCircle size={24} />,
-    href: "https://medium.com/",
+    href: "https://medium.com/@kittipat_dd",
   },
 ];
 
 const Navbar = () => {
   const { pathname } = useLocation();
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme, toggleAnimation, animation } = useTheme();
   const {
     t,
-    i18n: { changeLanguage },
+    // i18n: { changeLanguage, language },
   } = useTranslation();
 
   const getActiveLink = React.useCallback((path: string, pathname: string) => {
@@ -61,24 +63,53 @@ const Navbar = () => {
 
   const menu = React.useMemo(
     () => (
-      <Menu
+      <CustomMenu
         items={[
           {
             key: "1",
             label: "EN",
-            icon: <img src="./images/us.png" alt="us" width={16} height={16} />,
-            onClick: () => changeLanguage("en"),
+            icon: (
+              <img
+                src="./images/us.png"
+                alt="us"
+                width={16}
+                height={16}
+                style={
+                  {
+                    // filter: language === "en" ? "grayscale(100%)" : undefined,
+                    // opacity: language === "en" ? 0.5 : 1,
+                  }
+                }
+              />
+            ),
+            // onClick: () => changeLanguage("en"),
+            // disabled: language === "en",
+            style: { backgroundColor: "#DDD" },
           },
-          {
-            key: "2",
-            label: "TH",
-            icon: <img src="./images/th.png" alt="th" width={16} height={16} />,
-            onClick: () => changeLanguage("th"),
-          },
+          // {
+          //   key: "2",
+          //   label: "TH",
+          //   icon: (
+          //     <img
+          //       src="./images/th.png"
+          //       alt="th"
+          //       width={16}
+          //       height={16}
+          //       style={{
+          //         filter: language === "th" ? "grayscale(100%)" : undefined,
+          //         opacity: language === "th" ? 0.5 : 1,
+          //       }}
+          //     />
+          //   ),
+          //   onClick: () => changeLanguage("th"),
+          //   disabled: language === "th",
+          // },
         ]}
       />
     ),
-    [changeLanguage]
+    [
+      // changeLanguage, language
+    ]
   );
 
   return (
@@ -87,20 +118,27 @@ const Navbar = () => {
         <NavbarLogo>
           {(t("global.firstName") as string).toUpperCase()}
         </NavbarLogo>
-        {router.map((route) => (
-          <NavbarLink
-            key={route.name}
-            className={getActiveLink(route.path, pathname) ? "active" : ""}
-            to={route.path}
-            title={route.title}
-          >
-            {route.title}
-          </NavbarLink>
-        ))}
+        {router.map(
+          (route) =>
+            !route.isMenuHidden && (
+              <NavbarLink
+                key={route.name}
+                className={getActiveLink(route.path, pathname) ? "active" : ""}
+                to={route.path}
+                title={route.title}
+              >
+                {route.title}
+              </NavbarLink>
+            )
+        )}
       </NavbarLinkContainer>
       <NavbarLinkContainer>
         {socialLinks.map((socialLink) => (
-          <SocialLink key={socialLink.href} href={socialLink.href}>
+          <SocialLink
+            key={socialLink.href}
+            target="_blank"
+            href={socialLink.href}
+          >
             {socialLink.icon}
           </SocialLink>
         ))}
@@ -111,11 +149,15 @@ const Navbar = () => {
           </SocialLink>
         </Dropdown>
         <Toggle
-          onChange={(val) => {
-            console.log({ val });
-            toggleTheme();
-          }}
+          name="theme"
+          onChange={() => toggleTheme()}
           value={theme === "dark"}
+        />
+        <Toggle
+          name="animation"
+          onChange={() => toggleAnimation()}
+          value={animation}
+          icons={[<MdHideImage size={18} />, <MdBrokenImage size={18} />]}
         />
       </NavbarLinkContainer>
     </NavbarContainer>

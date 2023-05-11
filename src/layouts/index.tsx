@@ -1,12 +1,24 @@
+import { Spin } from "antd";
 import React from "react";
-import { AppContentContainer } from "./index.style";
+import useLayout from "../providers/layouts";
+import useTheme from "../providers/themes";
+import {
+  AppContainer,
+  AppContentContainer,
+  CustomParticles,
+} from "./index.style";
 import Navbar from "./navbar";
 const Layouts: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
+  const layout = useLayout();
+  const { animation } = useTheme();
   return (
-    <div>
-      <Navbar />
-      <AppContentContainer>{children}</AppContentContainer>
-    </div>
+    <Spin spinning={layout.isLoading}>
+      <AppContainer>
+        {animation && <CustomParticles />}
+        <Navbar />
+        <AppContentContainer>{children}</AppContentContainer>
+      </AppContainer>
+    </Spin>
   );
 };
 
