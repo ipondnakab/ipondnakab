@@ -1,9 +1,22 @@
+
+
 # Hi guys 👋
-My name is Kittipat but you can call me Pond. I'm a Junior student's computer engineering  Khon Kaen University. I'm like to coding and learning new technology and new ideas
+<p align="center">
+    <a href="https://ipondnakab.github.io" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000000&color=9B9B9B&background=FF000000&center=true&vCenter=true&width=435&lines=Hello+I%27m+KITTIPAT+DAENGDEE"/> </a>
+</p>
+<p>
+  I graduated bachelor's degree in Computer Engineering from Khon Kaen University (Thailand), and I've skilled in programming and teamwork. I'm excellent at Web application development and developing Backends, Normally I can develop Backend with Node.js and Frontend with React.JS, VUE, HTML, and CSS (Static web), I wonderfully use Typescript Language, JavaScript Language, HTML, and CSS
+</p>
 
 ## Blog, writing
 When I have new knowledge I like to write a blog as a reminder of when I forget. I like to write at [Meduim](https://medium.com/@kittipat_dd)
 
+## My Website Resume
+<p align="center">
+    <a href="https://ipondnakab.github.io" target="_blank">ipondnakab.github.io</a>
+</p>
+
+<!--
 ## Social Media
 <p align="center"> 
   <a href="https://www.facebook.com/IPondNaKab/" rel="Go to my Facebook">
@@ -20,7 +33,7 @@ When I have new knowledge I like to write a blog as a reminder of when I forget.
   </a>
     
 </p>
-<!--
+
 **ipondnakab/ipondnakab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
