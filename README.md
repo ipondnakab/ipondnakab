@@ -1,49 +1,172 @@
-
-
-# Hi guys 👋
 <p align="center">
-    <a href="https://ipondnakab.github.io" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000000&color=9B9B9B&background=FF000000&center=true&vCenter=true&width=435&lines=Hello+I%27m+KITTIPAT+DAENGDEE"/> </a>
+    <a href="https://ipondnakab.github.io" target="_blank"> 
+        <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000000&color=9B9B9B&background=FF000000&center=true&vCenter=true&width=435&lines=Hello+I%27m+KITTIPAT+DAENGDEE"/>
+    </a>
 </p>
-<p>
-  I graduated bachelor's degree in Computer Engineering from Khon Kaen University (Thailand), and I've skilled in programming and teamwork. I'm excellent at Web application development and developing Backends, Normally I can develop Backend with Node.js and Frontend with React.JS, VUE, HTML, and CSS (Static web), I wonderfully use Typescript Language, JavaScript Language, HTML, and CSS
-</p>
+<h3 align="center">🚀 Full-Stack Software Engineer  |  Problem Solver  |  Lifelong Learner</h3>
 
-## Blog, writing
-When I have new knowledge I like to write a blog as a reminder of when I forget. I like to write at [Meduim](https://medium.com/@kittipat_dd)
+---
 
-## My Website Resume
+## 🧑‍💻 About Me
+
+I’m a **Software Engineer with 5+ years of experience** in full-stack web and application development, including automated testing.
+
+💡 I enjoy solving complex problems with creative approaches
+🤝 Thrive in collaborative team environments
+📈 Always learning and improving my skills
+
+---
+
+## ⚙️ Tech Stack
+
+### 🖥️ Frameworks & Libraries
+
+- React.js / Next.js / Vue.js / Angular
+- Node.js / Spring Boot
+- Tailwind CSS / Bootstrap
+
+### 💻 Languages
+
+- TypeScript / JavaScript
+- Java / Python / Go / C++
+- HTML / CSS / SCSS
+
+### 🛠️ Tools & Other Skills
+
+- Git / Docker / Jenkins
+- SQL / Firebase
+- LINE API
+- Automated Testing (Playwright)
+- English (Intermediate)
+
+---
+
+## 🎓 Education
+
+🎓 **Bachelor of Computer Engineering**
+Khon Kaen University (2018 – 2022)
+
+---
+
+## 💼 Work Experience
+
+### 🚀 ODDS (Mar 2026 – Present)
+
+**Full Stack Engineer**
+
+- Developed **Alive** — a wellness application for AIA customers
+- Built with:
+  - 📱 Expo (Frontend)
+  - ☕ Spring Boot (Backend)
+
+---
+
+### 💻 ODDS (May 2021 – Feb 2026)
+
+**Software Engineer**
+
+- 🏦 Developed platform for **Stock Exchange of Thailand (SET)**
+  - React.js + Spring Boot + Node.js
+
+- 🇯🇵 Built **Tax Management System** for Japanese local government
+  - React.js + Node.js
+  - 🧪 Automated testing with Playwright
+
+---
+
+### 🌱 ODDS (Summer 2021)
+
+**Software Engineer Intern**
+
+Projects:
+
+- ⚡ **PEA Outage Map** — electricity outage tracking system
+- 💰 **SafeBSC** — crypto portfolio management
+
+Tech: React.js, Flutter, Node.js, Golang
+
+---
+
+### 🏢 Zercle Technology Co., Ltd. (Summer 2020)
+
+**Fullstack Developer Intern**
+
+- Developed web applications using:
+  - Angular / Node.js / Deno
+  - SQL / SCSS
+
+---
+
+## 🌟 Featured Projects
+
+### 🧠 Speechful (speechful.ai)
+
+AI-powered tutoring platform
+
+- Frontend Developer (React + Tailwind)
+- 🎧 Specialized in audio processing & recording workflows
+
+---
+
+### 👵 Pa Yai Ha Mor (NSC 2021)
+
+Healthcare app for elderly assistance
+🏆 Honorable Mention – National Software Contest 2021
+
+- React Native + Node.js + Firebase
+
+---
+
+### 🎓 GSKKU Life Journey
+
+Student life management platform
+
+- React.js
+
+---
+
+### 🛒 SMT
+
+Market management web application
+
+- React.js + Node.js + Firebase
+
+---
+
+### 🐾 Pettinee
+
+Veterinary consultation platform
+
+- React.js + Node.js + Firebase
+- LINE Messaging API
+
+---
+
+### 🏢 Real Control Technology
+
+Corporate website + OKR platform
+
+- React.js + Node.js + Firebase
+- LINE Messaging API
+
+---
+
+## 📊 GitHub Stats
+
 <p align="center">
-    <a href="https://ipondnakab.github.io" target="_blank">ipondnakab.github.io</a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ipondnakab&layout=compact&theme=tokyonight" />
 </p>
 
-<!--
-## Social Media
-<p align="center"> 
-  <a href="https://www.facebook.com/IPondNaKab/" rel="Go to my Facebook">
-    <img src="https://www.flaticon.com/svg/vstatic/svg/733/733547.svg?token=exp=1614803234~hmac=fc5fb5edb49fdd0ea4770cb8d91eb48a" height="40" margin="20">
-  </a>
-  <a href="https://www.linkedin.com/in/kittipat-dd/" rel="Go to my linkedin">
-    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111499.svg?token=exp=1614803427~hmac=050a513e567951d040f16271d136dcb3" height="50">
-  </a>
-  <a href="https://www.instagram.com/ipondnakab/" rel="Go to my instagram">
-    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111463.svg?token=exp=1614803348~hmac=2f6d2d2caa44f4a9c8dfb800d04d157f" height="40">
-  </a>
-  <a href="https://medium.com/@kittipat_dd" rel="Go to my Medium">
-    <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111543.svg?token=exp=1614803468~hmac=189823dffc73ebdfa4830845b5143237" height="40">
-  </a>
-    
-</p>
+---
 
-**ipondnakab/ipondnakab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 📫 Contact Me
 
-Here are some ideas to get you started:
+- 💼 LinkedIn: [Kittipat Daengdee](https://www.linkedin.com/in/kittipat-dd/)
+- 🌐 Portfolio: [Kittipat Daengdee](https://ipondnakab.github.io/)
 
-- 🔭 I’m currently working on ... 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## ⚡ Fun Fact
+
+I build things, break things, and rebuild them better 🚀
+
